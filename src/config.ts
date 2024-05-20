@@ -25,25 +25,25 @@ interface IConfig {
 
 export const Config: IConfig = {
   me: {
-    name: "John Doe",
-    job: "backend engineer",
-    started: "1970-01-01",
-    stack: "Scratch",
-    hobby: "gamble my life savings",
-    projectLink: "https://github.com/JohnDoe?tab=repositories",
+    name: "Sudais Khan",
+    job: "jr backend engineer",
+    started: "2023-01-01",
+    stack: "MERN",
+    hobby: "practice my visual designing skills",
+    projectLink: "https://github.com/Skaps664?tab=repositories",
   },
   socials: {
-    twitter: "https://twitter.com/JohnDoe",
-    github: "https://github.com/JohnDoe",
+    twitter: "https://twitter.com/skaps64",
+    github: "https://github.com/Skaps664",
   },
   projects: {
-    "996.ICU": {
-      url: "https://github.com/996icu/996.ICU",
-      tags: ["ccp", "chinese", "overwork", "labor", "996"],
+    "Pinterest Backend Clone": {
+      url: "https://github.com/Skaps664/pinterest_like",
+      tags: ["ES6", "node", "express", "mongoDB"],
     },
-    Linux: {
-      url: "https://github.com/torvalds/linux",
-      tags: ["c", "kernel", "unix", "os"],
+    "Linux": {
+      url: "https://github.com/Skaps664/pinterest_like",
+      tags: ["python", "keras", "cnn", "pandas"],
     },
   },
   og: {
