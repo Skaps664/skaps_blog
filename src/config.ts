@@ -33,18 +33,21 @@ export const Config: IConfig = {
     projectLink: "https://github.com/Skaps664?tab=repositories",
   },
   socials: {
-    twitter: "https://twitter.com/skaps64",
+    // twitter: "https://twitter.com/skaps64",
     github: "https://github.com/Skaps664",
+    behance: "https://www.behance.net/sudaiskhan",
+    itch: "https://skaps.itch.io/",
   },
   projects: {
+    "CNN-Emotion-detection": {
+      url: "https://github.com/Skaps664/CNN-Emotion-detection",
+      tags: ["python", "keras", "cnn", "pandas"],
+    },
     "Pinterest Backend Clone": {
       url: "https://github.com/Skaps664/pinterest_like",
       tags: ["ES6", "node", "express", "mongoDB"],
     },
-    "Linux": {
-      url: "https://github.com/Skaps664/pinterest_like",
-      tags: ["python", "keras", "cnn", "pandas"],
-    },
+    
   },
   og: {
     image: icon.src,
