@@ -1,7 +1,7 @@
 ---
 import { ViewTransitions } from "astro:transitions";
 import { Config } from "../config";
-import icon from "../assets/icon.png";
+import icon2 from "../assets/icon2.jpg";
 
 interface Props {
   title?: string;
@@ -29,7 +29,7 @@ const currentPath = Astro.url.pathname;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href={icon.src} />
+    <link rel="icon2" type="image/svg+xml+jpg" href={icon2.src} />
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta property="og:title" content={og_title} />
@@ -58,6 +58,12 @@ const currentPath = Astro.url.pathname;
               <a
                 class={currentPath.startsWith("/posts") ? "text-primary" : ""}
                 href="/posts">Posts</a
+              >
+            </li>
+            <li>
+              <a
+                class={currentPath.startsWith("/resume") ? "text-primary" : ""}
+                href="/resume">Resume</a
               >
             </li>
           </ul>
