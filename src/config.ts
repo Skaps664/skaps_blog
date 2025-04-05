@@ -26,8 +26,8 @@ interface IConfig {
 export const Config: IConfig = {
   me: {
     name: "Sudais Khan",
-    job: "jr backend engineer",
-    started: "2023-01-01",
+    job: "Full Stack Web Developer",
+    started: "2022-01-01",
     stack: "MERN",
     hobby: "practice my visual designing skills",
     projectLink: "https://github.com/Skaps664?tab=repositories",
@@ -35,8 +35,9 @@ export const Config: IConfig = {
   socials: {
     // twitter: "https://twitter.com/skaps64",
     github: "https://github.com/Skaps664",
+    linkedIn: "https://www.linkedin.com/in/sudaisk",
     behance: "https://www.behance.net/sudaiskhan",
-    itch: "https://skaps.itch.io/",
+    myAgency: "https://www.skordl.com/",
   },
   projects: {
     "CNN-Emotion-detection": {
