@@ -1,15 +1,47 @@
 ---
-title: Lorem Ipsum
-description: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-publishedAt: 2024-03-12
+title: How Do Neural Networks Work? A Simple Guide for Everyone
+description: Learn how neural networks function in a way that's easy for kids, adults, and tech professionals to understand. Includes real-world examples and interactive comparisons.
+publishedAt: 2024-03-15
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue tortor, blandit ac tellus non, auctor viverra elit. Cras at odio auctor, tristique ex eu, pellentesque augue. Nulla facilisi. Donec ac lacinia diam, nec pulvinar purus. Suspendisse eget massa quis nulla blandit condimentum sit amet nec nibh. Aenean semper quis ipsum et dapibus. Duis pharetra molestie ultrices. Etiam diam quam, dictum eu magna ac, pulvinar euismod metus. Donec porttitor nec magna sed egestas. Praesent vehicula dictum dapibus. In euismod vitae neque suscipit bibendum. Proin a nisi nec urna blandit cursus ac a turpis. Nulla dictum, magna in aliquet posuere, augue orci fringilla neque, eu suscipit enim ante vel ex. Suspendisse purus lacus, sodales sed vehicula quis, egestas in diam. Nulla facilisi. Praesent bibendum tortor lectus, aliquet varius justo cursus eu.
+# How Do Neural Networks Work? A Simple Guide for Everyone
 
-Mauris id lacinia nisi, ut lobortis felis. Praesent lacinia augue vel quam tincidunt tempor vitae in est. Praesent non varius leo. Nullam varius elementum accumsan. Cras neque massa, ullamcorper tincidunt quam at, aliquam vulputate lacus. Nullam et dolor velit. Quisque dapibus libero at viverra blandit. Sed a tincidunt nibh. Phasellus posuere vehicula urna, quis placerat risus varius a. Sed a cursus urna, vel lobortis tortor. Ut vestibulum nunc ac mi lacinia semper.
+Have you ever wondered how computers can recognize faces, understand speech, or even beat humans at games like chess? The secret often lies in something called a **neural network**—a system inspired by the human brain!
 
-Nulla facilisi. Vestibulum vitae purus ac urna pretium dictum. Curabitur interdum sollicitudin dapibus. Quisque tincidunt, neque quis gravida mattis, ligula dui efficitur leo, feugiat posuere ligula lectus ut nibh. Nunc in ultrices velit, tempor fermentum purus. Proin finibus, arcu ac porta egestas, nibh velit iaculis orci, non congue velit enim et augue. In lobortis sagittis tristique. Duis non nulla at lectus bibendum imperdiet vel sed nulla. Suspendisse vestibulum dolor sed sapien faucibus, sed volutpat lectus rutrum. Quisque sit amet tellus eu nisi maximus eleifend eget quis libero.
+## What Is a Neural Network?
 
-Ut tincidunt blandit viverra. Donec tristique vulputate ex id iaculis. Donec molestie consequat semper. Vivamus at enim commodo, porta mi in, ultricies lacus. Nunc tincidunt mi sit amet accumsan dapibus. Donec eget sapien aliquam, tincidunt nisl a, imperdiet odio. Nam felis dui, facilisis sit amet suscipit et, ornare sed urna. Mauris imperdiet congue sagittis.
+Imagine you're teaching a toddler to recognize different animals. You show them pictures of cats and dogs, and over time, they learn to tell them apart. A **neural network** works in a similar way—it learns from examples!
 
-Sed tincidunt elementum pharetra. Nulla est dolor, fermentum et consectetur sit amet, dictum vitae lorem. Maecenas et condimentum elit, a fringilla augue. Vivamus lacinia vitae nisl quis laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi tincidunt quis quam non cursus. Aliquam auctor, leo vel varius vehicula, nulla lectus lacinia elit, ac vestibulum purus est et diam. Phasellus sodales ut odio quis sagittis. Etiam aliquam id leo vel congue. Sed dapibus turpis non aliquam laoreet.
+### The Three Main Layers:
+
+1. **Input Layer** – This is where the network receives data (like pixels in an image).
+2. **Hidden Layers** – These layers process the data, finding patterns (like edges, shapes, or sounds).
+3. **Output Layer** – This gives the final answer (like "cat" or "dog").
+
+## How Does It Learn?
+
+1. **Training Phase** – The network is fed lots of examples (e.g., 1,000 cat and dog pictures).
+2. **Making Predictions** – At first, it guesses randomly.
+3. **Checking Mistakes** – If wrong, the network adjusts its connections.
+4. **Improving Over Time** – After many tries, it gets better at recognizing patterns.
+
+## Real-Life Example: Recognizing Handwritten Numbers
+
+1. **Input:** The computer sees an image of the number "5".
+2. **Processing:** Hidden layers detect lines and curves.
+3. **Output:** Predicts "5" with 90% confidence.
+
+## Why Are Neural Networks Powerful?
+
+- Image recognition (Facebook tagging)
+- Speech assistants (Siri, Alexa)
+- Self-driving cars
+
+## Brain vs. Neural Network
+
+| **Human Brain**        | **Neural Network**   |
+| ---------------------- | -------------------- |
+| Learns from experience | Learns from data     |
+| Neurons send signals   | Nodes process inputs |
+
+[Try a neural network demo](https://example.com) and see it guess your drawings!
